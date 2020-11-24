@@ -1,7 +1,7 @@
-# Project Title Grant Tracker 
-# Full Stack App
+# Grant Tracker 
+## Full Stack App
 
-# The full functioning app will sontain the following features: 
+### The full functioning app will sontain the following features: 
 1. Submit and monitor grant reports
 2. Check the status of grant payments
 3. Receive email notifications on reports
@@ -9,9 +9,9 @@
 5. Request a copy of a grant letter
 6. Update contact, staff, and payment information 
 
-# USERS 
+### USERS 
 
-## The Administrator can 
+### The Administrator can 
  - Login into platform 
  - Create new users and add basic information
  - Add comments to reports
@@ -23,7 +23,7 @@
  - Update grant staff and payment information.
  - Noitfy user on grants disbursed
 
-## The Users 
+### The Users 
  - Login to platform
  - Input narrative reports due on the grant 
  - Upload financial reports due on the grant 
@@ -37,16 +37,16 @@
  - Check status of grant payments : disbursed pending disbursement
 
 
-# Grant Tracker: API Routes Design https://docs.google.com/document/d/1fv-lPk2_WEqXf-TM0xAD8asokiILzcyseizq-JpTX2E/edit?usp=sharing
+### Grant Tracker: API Routes Design https://docs.google.com/document/d/1fv-lPk2_WEqXf-TM0xAD8asokiILzcyseizq-JpTX2E/edit?usp=sharing
 
-##Technologies: React, Node/Express, Material UI and MySQL.
+### Technologies: React, Node/Express, Material UI and MySQL.
 
-## MVP Features include: 
+### MVP Features include: 
 Organisational Profile Page
 Narrative Report Page
 Financial Report Page
 Submissions confirmation page 
 
-## Notes
+### Notes
 
 _This is a student project by Nash The Coder that was created at [CodeOp](http://CodeOp.tech), as part of the full stack development bootcamp in Barcelona._
