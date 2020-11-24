@@ -1,8 +1,23 @@
 import React, { Component } from 'react';
+import './App.css';
+import OrgForm from './components/OrgForm';
+
+function App() {
+  return (
+    <div>
+      <h1>Grant Tracker</h1>
+      <OrgForm />
+    </div>
+  )
+}
+export default App
+
+
+/* import React, { Component } from 'react';
 //import logo from './logo.svg';
 import './App.css';
 import UserForm from './components/UserForm';
-import Login from './components/Login';
+// import Login from './components/Login';
 import AdminView from './components/AdminView'
 
 export default class App extends Component {
@@ -13,7 +28,7 @@ export default class App extends Component {
     }
   }
 
-  async componentDidMount() {
+  /* async componentDidMount() {
     const adminStatus = localStorage.getItem("user")
     this.setState({
       userOrAdmin: adminStatus ? parseInt(adminStatus) : null
@@ -36,18 +51,5 @@ export default class App extends Component {
       return <UserForm />;
     }
   }
-
-  render() {
-
-
-    return (
-
-      <div className="App">
-        <h1>Grant Tracker</h1>
-        {this.displayForms()}
-      </div>
-
-    );
-  }
-
-}
+ */
+ 

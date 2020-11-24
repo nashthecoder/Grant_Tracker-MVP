@@ -6,7 +6,7 @@ export default class Login extends Component {
     super(props);
     this.state = {
       email: "naijeria@email.com",
-      password: "admin",
+      password: " ",
       error: false
     }
   }
