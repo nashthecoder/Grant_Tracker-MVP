@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import TextField from 'material-ui/TextField';
 import RaisedButton from 'material-ui/RaisedButton';
-/* import InputLabel from '@material-ui/core/InputLabel';
+import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
-import Select from '@material-ui/core/Select'; */
+import Select from '@material-ui/core/Select';
 
 //linked to POST User
 export default class OrgForm extends Component {
@@ -117,7 +117,7 @@ export default class OrgForm extends Component {
             <br />
             <br />
 
-            {/* <FormControl>
+            <FormControl>
               <InputLabel id="admin">Admin?</InputLabel>
               <Select
                 labelId="admin"
@@ -128,16 +128,16 @@ export default class OrgForm extends Component {
                 <MenuItem value={false}>No</MenuItem>
                 <MenuItem value={true}>Yes</MenuItem>
               </Select>
-            </FormControl> */}
+            </FormControl>
 
-{/*             <br />
+            <br />
             <TextField
               hintText="Insert Email"
               floatingLabelText="Insert Email"
               onChange={this.handleChange('email')}
               defaultValue={this.state.email}
             />
-            <br /> */}
+            <br />
 
             <RaisedButton label="Create User"
               primary={true}
